@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead army</title>
+
+    <!-- Css file -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- google font Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- google font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- google font Popins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- google font RocknRoll One -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=RocknRoll+One&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+    <!-- Flowbite CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.1/dist/flowbite.min.css" rel="stylesheet" />
+
+    <!-- Deisy UI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Lightbox2 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Lightbox2 JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <!-- Header start -->
+    <header class="fixed top-0 left-0 w-full z-50">
+
+        <!-- Top Header start -->
+        <section class="bg-[#1E2B58] text-white text-sm h-[20px] lg:flex items-center hidden md:flex">
+            <div class="container mx-auto flex justify-between items-center px-4">
+                <!-- Contact Information -->
+                <div class="flex space-x-6" style="font-family: 'Montserrat', sans-serif">
+                    <a href="tel:+15612284003" class="flex items-center space-x-2">
+                        <i class="fa-solid fa-phone-flip"></i>
+                        <span>+1 561-228-4003</span>
+                    </a>
+                    <a href="mailto:info@leadarmy.com" class="flex items-center space-x-2">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>info@leadarmy.com</span>
+                    </a>
+                    <a href="#" class="flex items-center space-x-2">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>1309 Coffeen Avenue STE 1200 Sheridan, Wyoming 82801</span>
+                    </a>
+                </div>
+                <!-- Social Media Icons -->
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:text-orange-200 transition duration-1000">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="hover:text-orange-200 transition duration-1000">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="hover:text-orange-200 transition duration-1000">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Top Header end -->
+
+        <!-- nav section start -->
+        <nav class="bg-white border-gray-200 dark:bg-gray-900">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="images/leadarmy.png" class="h-12" alt="logo" />
+                </a>
+                <div class="flex md:order-2 space-x-2 md:space-x-0 rtl:space-x-reverse">
+                    <button type="button"
+                        class="text-white bg-[#1E2B58] hover:bg-[#9b51e0] focus:outline-none font-medium rounded-lg text-sm px-4 py-3 text-center uppercase transition duration-1000">
+                        Get Started
+                    </button>
+
+                    <button data-collapse-toggle="navbar-cta" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-cta" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                    <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+                        style="font-family: 'Roboto', sans-serif">
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 md:p-0 text-[#7A7A7A] hover:text-[#1E2B58] transition duration-1000 rounded-sm md:bg-transparent md:dark:text-[#7A7A7A]">
+                                Our Clients
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 md:p-0 text-[#7A7A7A] hover:text-[#1E2B58] transition duration-1000 rounded-sm">
+                                Process
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 md:p-0 text-[#7A7A7A] hover:text-[#1E2B58] transition duration-1000 rounded-sm">
+                                Our Work
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 md:p-0 text-[#7A7A7A] hover:text-[#1E2B58] transition duration-1000 rounded-sm">
+                                Pricing
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 md:p-0 text-[#7A7A7A] hover:text-[#1E2B58] transition duration-1000 rounded-sm">
+                                FAQs
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 md:p-0 text-[#7A7A7A] hover:text-[#1E2B58] transition duration-1000 rounded-sm">
+                                Reviews
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- nav section end -->
+    </header>
+    <!-- Header end -->
+
+
+
+    <!-- Main start -->
+    <main class="lg:mt-20 mt-16 md:mt-48">
+
+
+        <!-- Hero Section Start -->
+        <section class="relative h-auto bg-cover bg-center flex items-center justify-center px-4 md:px-8 lg:px-16"
+            style="background-image: url('images/bg.jpg');">
+            <div class="absolute inset-0 bg-[#1E2B58] opacity-75"></div>
+
+            <!-- Hero content -->
+            <div class="relative text-center text-white max-w-6xl mt-10">
+                <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl space-y-4 font-semibold leading-tight md:leading-[5rem]"
+                    style="font-family: 'RocknRoll One', sans-serif">
+                    Ready to fill
+                    <br>
+                    <span class=" lg:block mt-4 mb-4 text-[#48F803]">your calendar with more <br></span>
+                    sales call?
+                </h1>
+
+                <p class="mt-4 text-base sm:text-lg text-gray-300 px-2 sm:px-6"
+                    style="font-family: 'Poppins', sans-serif">
+                    Fully managed cold email outreach service with guaranteed results at the most affordable cost.
+                    <br class="hidden sm:inline">
+                    If there's no result, you get a full refund!
+                </p>
+
+                <div class="mt-8">
+                    <p class="text-sm sm:text-base" style="font-family: 'Poppins', sans-serif;">
+                        Over 500 Five-Star Client Reviews
+                    </p>
+
+                    <button
+                        class="mt-4 px-10 sm:px-14 py-3 sm:py-4 bg-[#B89104] text-lg sm:text-2xl text-white font-semibold rounded-lg shadow-lg hover:bg-[#48F803] underline"
+                        style="font-family: 'Poppins', sans-serif;">
+                        GET STARTED
+                    </button>
+
+                    <div class="flex items-center justify-center mt-4">
+                        <img src="images/start.png" alt="rating" class="w-24 sm:w-32 md:w-40">
+                    </div>
+                </div>
+
+                <!-- Hero stats start -->
+                <section class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 my-10 px-4 sm:px-8">
+                    <div class="bg-white p-4 sm:p-6 rounded-lg shadow-lg text-center">
+                        <div class="text-2xl sm:text-4xl font-bold text-[#1E2B58]" data-target="500">0+</div>
+                        <div class="text-gray-600 text-sm sm:text-lg">Campaigns Done</div>
+                    </div>
+
+                    <div class="bg-white p-4 sm:p-6 rounded-lg shadow-lg text-center">
+                        <div class="text-2xl sm:text-4xl font-bold text-[#1E2B58]" data-target="3000000">0+</div>
+                        <div class="text-gray-600 text-sm sm:text-lg">Leads Contacted</div>
+                    </div>
+
+                    <div class="bg-white p-4 sm:p-6 rounded-lg shadow-lg text-center">
+                        <div class="text-2xl sm:text-4xl font-bold text-[#1E2B58]" data-target="15000000">0+</div>
+                        <div class="text-gray-600 text-sm sm:text-lg">Cold Email Sent</div>
+                    </div>
+
+                    <div class="bg-white p-4 sm:p-6 rounded-lg shadow-lg text-center">
+                        <div class="text-2xl sm:text-4xl font-bold text-[#1E2B58]" data-target="15000">0+</div>
+                        <div class="text-gray-600 text-sm sm:text-lg">Qualified Leads</div>
+                    </div>
+
+                    <div class="bg-white p-4 sm:p-6 rounded-lg shadow-lg text-center col-span-2 sm:col-span-1">
+                        <div class="text-2xl sm:text-4xl font-bold text-[#1E2B58]" data-target="45000000">0+</div>
+                        <div class="text-gray-600 text-sm sm:text-lg">Revenue Generated</div>
+                    </div>
+                </section>
+                <!-- Hero stats end -->
+
+                <!-- JavaScript for Counter -->
+                <script>
+                    document.addEventListener("DOMContentLoaded", () => {
+                        const counters = document.querySelectorAll("[data-target]");
+
+                        counters.forEach(counter => {
+                            const target = +counter.getAttribute("data-target");
+                            let count = 0;
+
+                            const updateCounter = () => {
+                                const increment = target / 200;
+
+                                if (count < target) {
+                                    count += increment;
+                                    if (count > target) count = target;
+
+                                    // সংখ্যা ফরম্যাট করা
+                                    if (target >= 1000000) {
+                                        const value = count / 1000000;
+                                        counter.innerText = (value % 1 === 0 ? Math.floor(value) : value.toFixed(1)) + "M+";
+                                    } else if (target >= 1000) {
+                                        const value = count / 1000;
+                                        counter.innerText = (value % 1 === 0 ? Math.floor(value) : value.toFixed(1)) + "K+";
+                                    } else {
+                                        counter.innerText = Math.floor(count) + "+";
+                                    }
+
+                                    setTimeout(updateCounter, 15);
+                                } else {
+                                    // নিশ্চিত করি যে কাউন্টার সঠিক সংখ্যায় শেষ হয়
+                                    if (target >= 1000000) {
+                                        const value = target / 1000000;
+                                        counter.innerText = (value % 1 === 0 ? Math.floor(value) : value.toFixed(1)) + "M+";
+                                    } else if (target >= 1000) {
+                                        const value = target / 1000;
+                                        counter.innerText = (value % 1 === 0 ? Math.floor(value) : value.toFixed(1)) + "K+";
+                                    } else {
+                                        counter.innerText = target + "+";
+                                    }
+                                }
+                            };
+
+                            updateCounter();
+                        });
+                    });
+
+                </script>
+
+
+
+            </div>
+        </section>
+        <!-- Hero Section End -->
+
+
+
+        <!-- Our Celebrity Client Section start -->
+        <section class="client-section container max-w-screen-xl mx-auto ">
+            <div class="section-header">
+                <h1>Our Celebrity Clients</h1>
+                <p>You must be familiar with them, right? We are helping their businesses with our services.</p>
+            </div>
+
+            <div class="mb-6">
+                <!-- card section-->
+                <div class="card-container">
+
+
+                    <!-- card 1-->
+                    <div>
+                        <div class="card">
+                            <!-- SVG shape -->
+                            <div class="svg-shape">
+                                <svg viewBox="0 0 300 130" preserveAspectRatio="none">
+                                    <path fill="#E9D5FF" d="M0,0 H300 V80 Q150,130 0,80 Z"></path>
+                                </svg>
+                            </div>
+                            <!-- card content -->
+                            <div class="card-content">
+                                <img src="images/user_1.jpeg" alt="Josh Braun" />
+                                <p>
+                                    Lead Army is very professional. Delivered contacts and email addresses in a timely
+                                    manner - no hiccups along the way. I would recommend working with Lead Army.
+                                </p>
+                                <p class="name">Josh Braun | SalesDNA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <!-- card 2 -->
+                        <div>
+                            <div class="card">
+                                <!-- SVG shape -->
+                                <div class="svg-shape">
+                                    <svg viewBox="0 0 300 130" preserveAspectRatio="none">
+                                        <path fill="#E9D5FF" d="M0,0 H300 V80 Q150,130 0,80 Z"></path>
+                                    </svg>
+                                </div>
+                                <!-- card content -->
+                                <div class="card-content">
+                                    <img src="images/user_2.png" alt="Josh Braun" />
+                                    <p class="">
+                                        Lead Army did excellent. I am highly recommending them as good LeadGen team all.
+                                        I will hire them for my next project, definitely. Highly recommended to anyone
+                                        any project
+                                    </p>
+                                    <p class="name">Bruce Merrill | Cleverly</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <!-- card 3-->
+                        <div class="card">
+                            <!-- SVG shape -->
+                            <div class="svg-shape">
+                                <svg viewBox="0 0 300 130" preserveAspectRatio="none">
+                                    <path fill="#BFDBFE" d="M0,0 H300 V80 Q150,130 0,80 Z"></path>
+                                </svg>
+                            </div>
+                            <!-- card content -->
+                            <div class="card-content">
+                                <img src="images/user_3.png" alt="Justin Michael" />
+                                <p>
+                                    Lead Army did a fantastic job and I will use their services again in the future! I
+                                    would
+                                    definitely recommend giving them a try. Enthusiastic and quality job delivered on
+                                    time.
+                                </p>
+                                <p class="name">Justin Michael | JMM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- Our Celebrity Client Section end -->
+
+
+
+        <!-- WHo run busniess -->
+        <section class="container mx-auto">
+            <div class="text-center pb-8 bg-white">
+                <div>
+                    <h1 class="text-4xl font-bold mb-8 text-[#1E2B58]"
+                        style="font-family: 'RocknRoll one', sans-serif;">Who We Help</h1>
+                </div>
+
+                <!-- Image Section -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 px-8 py-6 max-w-screen-xl mx-auto">
+                    <!-- Image section part-1 -->
+                    <div class="relative text-center">
+                        <p class="text-[#54595F] mb-2 font-medium" style="font-family: 'Poppins', sans-serif;">Who Run a
+                            Business</p>
+                        <div class="w-72 h-72 bg-[#423C28] shadow-lg overflow-hidden relative group mx-auto">
+                            <img src="images/run_pic_1.png" alt="run business image"
+                                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                            <div
+                                class="absolute inset-0 bg-[#423C28] opacity-0 group-hover:opacity-50 transition-opacity duration-300">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Image section part-2 -->
+                    <div class="relative text-center">
+                        <p class="text-[#54595F] mb-2 font-medium" style="font-family: 'Poppins', sans-serif;">Who
+                            Manage Sales</p>
+                        <div class="w-72 h-72 bg-[#423C28] shadow-lg overflow-hidden relative group mx-auto">
+                            <img src="images/run_pic_2.png" alt="run business image"
+                                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                            <div
+                                class="absolute inset-0 bg-[#423C28] opacity-0 group-hover:opacity-50 transition-opacity duration-300">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Image section part-3 -->
+                    <div class="relative text-center">
+                        <p class="text-[#54595F] mb-2 font-medium" style="font-family: 'Poppins', sans-serif;">Who Drive
+                            Marketing</p>
+                        <div class="w-72 h-72 bg-[#423C28] shadow-lg overflow-hidden relative group mx-auto">
+                            <img src="images/run_pic_3.png" alt="run business image"
+                                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                            <div
+                                class="absolute inset-0 bg-[#423C28] opacity-0 group-hover:opacity-50 transition-opacity duration-300">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+
+        <!-- Trusted Entrepreneur section -->
+        <section>
+            <div class="text-center pb-8 bg-white px-2">
+                <div>
+                    <h1 class="text-3xl font-bold mb-8 text-[#1E2B58]"
+                        style="font-family: 'RocknRoll one', sans-serif;">
+                        Trusted by 200+ Solo Entrepreneur, Startup, Agency SaaS <br> team Firms & Professionals
+                    </h1>
+                </div>
+
+                <!-- image section start -->
+                <div>
+                    <div>
+                        <img src="images/img_aulbum.png" alt="image aulbam">
+                    </div>
+                </div>
+                <!-- image section end -->
+
+                <div>
+                    <h1 class="text-4xl font-bold my-8 text-[#1E2B58]"
+                        style="font-family: 'RocknRoll one', sans-serif;">
+                        Hyper personalized cold email outreach that drives<br> meetings with your dream clients
+                    </h1>
+
+                    <p class="text-[#000000] text-xl" style="font-family: 'Poppins', sans-serif;">
+                        Turn cold email outreach into a late converting sales machine. Our simple to use features
+                        combined with our done for you service enable you to create and close deals faster
+                    </p>
+                </div>
+
+                <!-- Slider Start -->
+                <div class="relative mt-8 w-full max-w-6xl mx-auto">
+                    <!-- Slider Controls -->
+                    <button id="prevBtn" aria-label="Previous Slide"
+                        class="absolute top-1/2 -left-14 transform -translate-y-1/2 bg-gray-800 text-white p-4 rounded-full shadow-md hover:bg-gray-700">
+                        &#10094;
+                    </button>
+                    <button id="nextBtn" aria-label="Next Slide"
+                        class="absolute top-1/2 -right-14 transform -translate-y-1/2 bg-gray-800 text-white p-4 rounded-full shadow-md hover:bg-gray-700">
+                        &#10095;
+                    </button>
+
+                    <!-- Carousel Items -->
+                    <div class="overflow-hidden">
+                        <div class="flex transition-transform duration-500 ease-in-out" id="carouselItems">
+                            <!-- Item 1 -->
+                            <div class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 px-2 my-4">
+                                <!-- Card Content -->
+                                <div class="bg-white shadow-xl rounded-lg p-6 h-full flex flex-col justify-between">
+                                    <!-- Added class "shadow-xl" for a stronger box shadow -->
+                                    <figure class="px-10 pt-6">
+                                        <img src="images/icon/icon_1.png" alt="Icon 1"
+                                            class="rounded-full w-20 mx-auto" />
+                                    </figure>
+                                    <div class="text-center mt-4">
+                                        <h2 class="text-lg font-bold">Book Meeting & Forwarding The Positive Leads</h2>
+                                        <p class="text-sm mt-2">We streamline your meeting scheduling and forward
+                                            positive leads directly to you for better engagement.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 2 -->
+                            <div class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 px-2 my-4">
+                                <div class="bg-white shadow-xl rounded-lg p-6 h-full flex flex-col justify-between">
+                                    <figure class="px-10 pt-6">
+                                        <img src="images/icon/icon_2.png" alt="Icon 2"
+                                            class="rounded-full w-20 mx-auto" />
+                                    </figure>
+                                    <div class="text-center mt-4">
+                                        <h2 class="text-lg font-bold">Capture Attention Using Proven Strategies</h2>
+                                        <p class="text-sm mt-2">Our proven strategies are designed to effectively
+                                            capture your audience's attention.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 3 -->
+                            <div class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 px-2 my-4">
+                                <div class="bg-white shadow-xl rounded-lg p-6 h-full flex flex-col justify-between">
+                                    <figure class="px-10 pt-6">
+                                        <img src="images/icon/icon_3.png" alt="Icon 3"
+                                            class="rounded-full w-20 mx-auto" />
+                                    </figure>
+                                    <div class="text-center mt-4">
+                                        <h2 class="text-lg font-bold">Write Converting Email Copy & Follow-Ups</h2>
+                                        <p class="text-sm mt-2">We craft compelling email copy and follow-ups to
+                                            maximize your conversion rates.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Item 4 -->
+                            <div class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 px-2 my-4">
+                                <div class="bg-white shadow-xl rounded-lg p-6 h-full flex flex-col justify-between">
+                                    <figure class="px-10 pt-6">
+                                        <img src="images/icon/icon_4.png" alt="Icon 4"
+                                            class="rounded-full w-20 mx-auto" />
+                                    </figure>
+                                    <div class="text-center mt-4">
+                                        <h2 class="text-lg font-bold">Optimize Campaigns with Data Insights</h2>
+                                        <p class="text-sm mt-2">Leverage data-driven insights to continuously improve
+                                            your outreach campaigns.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 5 -->
+                            <div class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 px-2 my-4">
+                                <div class="bg-white shadow-xl rounded-lg p-6 h-full flex flex-col justify-between">
+                                    <figure class="px-10 pt-6">
+                                        <img src="images/icon/icon_5.png" alt="Icon 5"
+                                            class="rounded-full w-20 mx-auto" />
+                                    </figure>
+                                    <div class="text-center mt-4">
+                                        <h2 class="text-lg font-bold">Personalized Approach for Each Client</h2>
+                                        <p class="text-sm mt-2">We tailor our strategies to meet the unique needs of
+                                            your business and clients.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add more items if needed -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Slider End -->
+
+                <!-- Carousel JavaScript -->
+                <script>
+                    // Get carousel elements
+                    const carousel = document.getElementById('carouselItems');
+                    const items = document.querySelectorAll('#carouselItems > div');
+                    const totalItems = items.length;
+                    const itemsPerView = 3; // Number of items visible at once
+                    let currentIndex = 0;
+
+                    // Function to update carousel position
+                    function updateCarousel() {
+                        const itemWidth = items[0].clientWidth + 16; // Includes horizontal margin (px-2 on both sides)
+                        const maxIndex = totalItems - itemsPerView;
+
+                        // Ensure currentIndex stays within bounds
+                        if (currentIndex < 0) {
+                            currentIndex = 0;
+                        }
+                        if (currentIndex > maxIndex) {
+                            currentIndex = maxIndex;
+                        }
+
+                        const translateX = -currentIndex * itemWidth;
+                        carousel.style.transform = `translateX(${translateX}px)`;
+                    }
+
+                    // Event listener for next button
+                    document.getElementById('nextBtn').addEventListener('click', () => {
+                        currentIndex++;
+                        updateCarousel();
+                    });
+
+                    // Event listener for previous button
+                    document.getElementById('prevBtn').addEventListener('click', () => {
+                        currentIndex--;
+                        updateCarousel();
+                    });
+
+                    // Update carousel on window resize
+                    window.addEventListener('resize', updateCarousel);
+
+                    // Initialize carousel position
+                    updateCarousel();
+                </script>
+
+
+
+
+            </div>
+        </section>
+        <!-- Trusted enterpuner end -->
+
+
+
+        <!-- Cold email drip section start -->
+        <section>
+            <div class="text-center py-6 px-4 bg-[#1E2B58] h-auto my-6">
+
+                <div>
+                    <h1 class="text-4xl font-bold mb-2 text-[#ffffff]" style="font-family: 'Poppins', sans-serif;">How
+                        we use cold email drip campaign to drive revenue<br> for clients</h1>
+                </div>
+
+                <p class="text-[#A0A0A0] text-base mt-4" style="font-family: 'Poppins', sans-serif;">Affordable expert
+                    cold
+                    email outreach that boosts sales from hard-to-reach prospects.</p>
+            </div>
+        </section>
+        <!-- Cold email drip section end -->
+
+
+        <!-- targeted verified lead section start -->
+        <section class="container mx-auto mt-8 px-6">
+            <!-- part-1 -->
+            <div class="flex flex-col lg:flex-row items-center lg:items-start">
+                <div class="flex-1">
+                    <img class="mx-auto" src="images/targed_img/img_1.png" alt="targed_img">
+                </div>
+                <div class="flex-1">
+                    <h1 class="text-4xl font-bold my-8 text-[#1E2B58]" style="font-family: 'Poppins', sans-serif;">Find
+                        Targeted Verified Leads On Your ICP</h1>
+                    <p class="text-[#7A7A7A] text-base" style="font-family: 'Poppins', sans-serif;">Using your ideal
+                        search criteria we pinpoint highly targeted, human-verified leads, ensuring precision and
+                        relevance for outreach effort.</p>
+                </div>
+            </div>
+
+            <!-- part-2 -->
+            <div class="flex flex-col lg:flex-row items-center lg:items-start mt-6">
+                <div class="flex-1 order-last lg:order-first mx-auto lg:pl-12">
+                    <h1 class="text-4xl font-bold my-8 text-[#1E2B58]" style="font-family: 'Poppins', sans-serif;">Setup
+                        Warmup, Inbox Filter & Forwarding</h1>
+                    <p class="text-[#7A7A7A] text-base" style="font-family: 'Poppins', sans-serif;">Will setup & email
+                        warmup for 2 weeks with inbox filters, and forwarding systems to optimize email deliverability
+                        and efficiency.
+                    </p>
+                </div>
+                <div class="flex-1 items-end">
+                    <img class="mx-auto" src="images/targed_img/img_2.png" alt="targed_img">
+                </div>
+            </div>
+
+            <!-- part-3 -->
+            <div class="flex flex-col lg:flex-row items-center lg:items-start">
+                <div class="flex-1">
+                    <img src="images/targed_img/img_3.png" alt="targed_img">
+                </div>
+                <div class="flex-1">
+                    <h1 class="text-4xl font-bold my-8 text-[#1E2B58]" style="font-family: 'Poppins', sans-serif;">
+                        Buying Domain & Setup Mailbox</h1>
+                    <p class="text-[#7A7A7A] text-base" style="font-family: 'Poppins', sans-serif;">Purchase alias
+                        domains, set up your mailbox, and efficiently warm it up for effective email outreach campaigns.
+                    </p>
+                </div>
+            </div>
+
+            <!-- part-4 -->
+            <div class="flex flex-col lg:flex-row items-center lg:items-start mt-6">
+                <div class="flex-1 order-last lg:order-first mx-auto lg:pl-12">
+                    <h1 class="text-4xl font-bold my-8 text-[#1E2B58]" style="font-family: 'Poppins', sans-serif;">Setup
+                        Warmup, Inbox Filter & Forwarding</h1>
+                    <p class="text-[#7A7A7A] text-base" style="font-family: 'Poppins', sans-serif;">Will setup & email
+                        warmup for 2 weeks with inbox filters, and forwarding systems to optimize email deliverability
+                        and efficiency.</p>
+                </div>
+                <div class="flex-1 items-end">
+                    <img class="mx-auto" src="images/targed_img/img_4.png" alt="targed_img">
+                </div>
+            </div>
+
+            <!-- part-5 -->
+            <div class="flex flex-col lg:flex-row items-center lg:items-start">
+                <div class="flex-1">
+                    <img class="mx-auto" src="images/targed_img/img_5.png" alt="targed_img">
+                </div>
+                <div class="flex-1">
+                    <h1 class="text-4xl font-bold my-8 text-[#1E2B58]" style="font-family: 'Poppins', sans-serif;">Write
+                        Converting Email Copy & Follow-Ups</h1>
+                    <p class="text-[#7A7A7A] text-base" style="font-family: 'Poppins', sans-serif;">Craft compelling
+                        email
+                        copy and effective follow-ups with you to maximize conversions and engagement.</p>
+                </div>
+            </div>
+
+            <!-- part-6 -->
+            <div class="flex flex-col lg:flex-row items-center lg:items-start mt-6">
+                <div class="flex-1 order-last lg:order-first mx-auto lg:pl-12">
+                    <h1 class="text-4xl font-bold my-8 text-[#1E2B58]" style="font-family: 'Poppins', sans-serif;">
+                        Handle Replies & Share The Positive Leads</h1>
+                    <p class="text-[#7A7A7A] text-base" style="font-family: 'Poppins', sans-serif;">Daily forwarding the
+                        positive replies leads to you for better handle to keep your sales pipeline active and thriving.
+                    </p>
+                </div>
+                <div class="flex-1 items-end">
+                    <img class="mx-auto" src="images/targed_img/img_6.png" alt="targed_img">
+                </div>
+            </div>
+
+            <!-- part-7 -->
+            <div class="flex flex-col lg:flex-row items-center lg:items-start">
+                <div class="flex-1">
+                    <img class="mx-auto" src="images/targed_img/img_6.png" alt="targed_img">
+                </div>
+                <div class="flex-1">
+                    <h1 class="text-4xl font-bold my-8 text-[#1E2B58]" style="font-family: 'Poppins', sans-serif;">Book
+                        Meeting On Your Calendar & Sync</h1>
+                    <p class="text-[#7A7A7A] text-base" style="font-family: 'Poppins', sans-serif;">Book meetings and
+                        sync
+                        seamlessly with calendar integration for efficient scheduling and coordination.</p>
+                </div>
+            </div>
+
+            <!-- part-8 -->
+            <div class="flex flex-col lg:flex-row items-center lg:items-start mt-6">
+                <div class="flex-1 order-last lg:order-first mx-auto lg:pl-12">
+                    <h1 class="text-4xl font-bold my-8 text-[#1E2B58]" style="font-family: 'Poppins', sans-serif;">
+                        Monitor Your Campaign Stats & Output</h1>
+                    <p class="text-[#7A7A7A] text-base" style="font-family: 'Poppins', sans-serif;">Will provide access
+                        to
+                        your campaign stats for transparency and insights into performance.</p>
+                </div>
+                <div class="flex-1 items-end">
+                    <img class="mx-auto" src="images/targed_img/img_8.png" alt="targed_img">
+                </div>
+            </div>
+        </section>
+        <!-- targeted verified lead section end -->
+
+
+
+        <!-- image galary section start -->
+        <section>
+            <!-- parent div -->
+            <div class="bg-[#170C38] pb-20 my-7">
+
+                <!-- centent div -->
+                <div>
+                    <h1 class="text-4xl text-white font-semibold text-center pt-8 pb-10 mx-4"
+                        style="font-family: 'Roboto', sans-serif;">Some of Our Campaign Stats</h1>
+                </div>
+
+
+                <!-- Album Section -->
+                <div class="bg-[#6b6bf950] p-4 rounded-lg">
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                        <!-- Image 1 -->
+                        <div class="relative group overflow-hidden rounded-lg">
+                            <a href="images/image_aulbam/aulbam_1.png" data-lightbox="gallery" data-title="Image 1">
+                                <img src="images/image_aulbam/aulbam_1.png" alt="Image 1"
+                                    class="w-[428px] h-[300px] object-cover rounded-lg transition-transform duration-300 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-orange-200 opacity-0 group-hover:opacity-50 transition-opacity duration-300">
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Image 2 -->
+                        <div class="relative group overflow-hidden rounded-lg">
+                            <a href="images/image_aulbam/aulbam_2.png" data-lightbox="gallery" data-title="Image 2">
+                                <img src="images/image_aulbam/aulbam_2.png" alt="Image 2"
+                                    class="w-[428px] h-[300px] object-cover rounded-lg transition-transform duration-300 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-orange-200 opacity-0 group-hover:opacity-50 transition-opacity duration-300">
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Image 3 -->
+                        <div class="relative group overflow-hidden rounded-lg">
+                            <a href="images/image_aulbam/aulbam_3.png" data-lightbox="gallery" data-title="Image 3">
+                                <img src="images/image_aulbam/aulbam_3.png" alt="Image 3"
+                                    class="w-[428px] h-[300px] object-cover rounded-lg transition-transform duration-300 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-orange-200 opacity-0 group-hover:opacity-50 transition-opacity duration-300">
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Image 4 -->
+                        <div class="relative group overflow-hidden rounded-lg">
+                            <a href="images/image_aulbam/aulbam_4.png" data-lightbox="gallery" data-title="Image 4">
+                                <img src="images/image_aulbam/aulbam_4.png" alt="Image 4"
+                                    class="w-[428px] h-[300px] object-cover rounded-lg transition-transform duration-300 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-orange-200 opacity-0 group-hover:opacity-50 transition-opacity duration-300">
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Image 5 -->
+                        <div class="relative group overflow-hidden rounded-lg">
+                            <a href="images/image_aulbam/aulbam_5.png" data-lightbox="gallery" data-title="Image 5">
+                                <img src="images/image_aulbam/aulbam_5.png" alt="Image 5"
+                                    class="w-[428px] h-[300px] object-cover rounded-lg transition-transform duration-300 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-orange-200 opacity-0 group-hover:opacity-50 transition-opacity duration-300">
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Image 6 -->
+                        <div class="relative group overflow-hidden rounded-lg">
+                            <a href="images/image_aulbam/aulbam_6.png" data-lightbox="gallery" data-title="Image 6">
+                                <img src="images/image_aulbam/aulbam_6.png" alt="Image 6"
+                                    class="w-[428px] h-[300px] object-cover rounded-lg transition-transform duration-300 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-orange-200 opacity-0 group-hover:opacity-50 transition-opacity duration-300">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Album Section -->
+
+            </div>
+        </section>
+        <!-- image galary section end -->
+
+
+
+        <!-- plans and Pricing -->
+        <section class="mx-3">
+            <div>
+                <div class="text-center">
+                    <h5 class="text-[#F4263E] text-2xl font-semibold" style="font-family: 'Poppins', sans-serif;">plans
+                        and pricing</h5>
+                </div>
+
+
+                <div class="text-center">
+                    <h1 class="text-4xl font-bold my-4 text-[#1E2B58]" style="font-family: 'Poppins', sans-serif;">
+                        Tailor-made affordable packages to help your business grow</h1>
+
+                    <p class="text-[#62668B] text-xl" style="font-family: 'Poppins', sans-serif;">The best "Done For
+                        You" cold email outreach packages for your business</p>
+                </div>
+
+
+                <!-- card and services -->
+                <section
+                    class=" flex flex-col my-12 md:flex-col lg:flex-row container mx-auto items-center justify-center mt-14">
+                    <div class="flex-1 mx-10 my-12">
+                        <div
+                            class="bg-white p-6 rounded-lg shadow-lg hover:border hover:border-red-500 transition duration-300">
+                            <div class="mx-auto text-center">
+                                <!-- Image -->
+                                <div class="avatar">
+                                    <div class="w-24 rounded-xl mx-auto">
+                                        <img src="images/icon/price_icon.png" alt="Price Icon" />
+                                    </div>
+                                </div>
+                                <!-- Title and Description -->
+                                <div>
+                                    <h2 class="text-2xl font-bold mb-2" style="font-family: 'Poppins', sans-serif;">
+                                        Campaign Management</h2>
+                                    <p class="text-[#62668A] font-bold text-xl"
+                                        style="font-family: 'Poppins', sans-serif;">$1,200.00 USD</p>
+                                    <p class="text-[#62668A] text-base" style="font-family: 'Poppins', sans-serif;">Per
+                                        Month</p>
+                                    <p class="text-base text-[#62668A] text-start mb-3"
+                                        style="font-family: 'Poppins', sans-serif;">Your emails will no longer hit spam
+                                        and the email deliverability open rates will be significantly improved. You will
+                                        receive a work-done report along a list of email marketing recommendations
+                                        consisting of 15 points & tools, that would allow you to keep the domain
+                                        reputation & email trust score healthy.</p>
+                                </div>
+                                <hr>
+                                <!-- What's Included -->
+                                <div>
+                                    <h1 class="text-xl font-semibold text-[#1F2559] text-start my-2"
+                                        style="font-family: 'Poppins', sans-serif;">What's Includes</h1>
+
+                                    <ul class="text-left space-y-4">
+                                        <li class="text-base text-[#62668A]"
+                                            style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-fan"
+                                                style="color: #74C0FC;"></i> 500 Verified Prospects</li>
+                                        <li class="text-base text-[#62668A]"
+                                            style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-fan"
+                                                style="color: #74C0FC;"></i> Email Configuration & Setup</li>
+                                        <li class="text-base text-[#62668A]"
+                                            style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-fan"
+                                                style="color: #74C0FC;"></i> Email First Line Personalization</li>
+                                        <li class="text-base text-[#62668A]"
+                                            style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-fan"
+                                                style="color: #74C0FC;"></i> Campaign Strategy & Management</li>
+                                        <li class="text-base text-[#62668A]"
+                                            style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-fan"
+                                                style="color: #74C0FC;"></i> Follow-up Email Sequence</li>
+                                        <li class="text-base text-[#62668A]"
+                                            style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-fan"
+                                                style="color: #74C0FC;"></i> A/B Testing</li>
+                                        <li class="text-base text-[#62668A]"
+                                            style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-fan"
+                                                style="color: #74C0FC;"></i> Email Copy</li>
+                                        <li class="text-base text-[#62668A]"
+                                            style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-fan"
+                                                style="color: #74C0FC;"></i> Weekly Analytics & Reporting</li>
+                                        <li class="text-base text-[#62668A]"
+                                            style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-fan"
+                                                style="color: #74C0FC;"></i> Dedicated Account Manager</li>
+
+                                    </ul>
+                                </div>
+                                <!-- Button -->
+                                <button
+                                    class="bg-[#1F2559] text-white hover:text-[#6B6CF9] mt-12 px-16 py-3 rounded-lg my-3">Contact</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-1 mx-10">
+                        <div
+                            class="bg-white p-6 rounded-lg shadow-lg hover:border hover:border-red-500 transition duration-300">
+                            <div class="mx-auto text-center">
+                                <!-- Image -->
+                                <div class="avatar">
+                                    <div class="w-24 rounded-xl mx-auto">
+                                        <img src="images/icon/price_icon.png" alt="Price Icon" />
+                                    </div>
+                                </div>
+                                <!-- Title and Description -->
+                                <div>
+                                    <h2 class="text-2xl font-bold mb-2" style="font-family: 'Poppins', sans-serif;">
+                                        Campaign Management</h2>
+                                    <p class="text-[#62668A] font-bold text-xl"
+                                        style="font-family: 'Poppins', sans-serif;">$1,200.00 USD</p>
+                                    <p class="text-[#62668A] text-base" style="font-family: 'Poppins', sans-serif;">Per
+                                        Month</p>
+                                    <p class="text-base text-[#62668A] text-start mb-3"
+                                        style="font-family: 'Poppins', sans-serif;">Your emails will no longer hit spam
+                                        and the email deliverability open rates will be significantly improved. You will
+                                        receive a work-done report along a list of email marketing recommendations
+                                        consisting of 15 points & tools, that would allow you to keep the domain
+                                        reputation & email trust score healthy.</p>
+                                </div>
+                                <hr>
+                                <!-- What's Included -->
+                                <div>
+                                    <h1 class="text-xl font-semibold text-[#1F2559] text-start my-2"
+                                        style="font-family: 'Poppins', sans-serif;">What's Includes</h1>
+
+                                    <ul class="text-left space-y-4">
+                                        <li class="text-base text-[#62668A]"
+                                            style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-fan"
+                                                style="color: #74C0FC;"></i> 500 Verified Prospects</li>
+                                        <li class="text-base text-[#62668A]"
+                                            style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-fan"
+                                                style="color: #74C0FC;"></i> Email Configuration & Setup</li>
+                                        <li class="text-base text-[#62668A]"
+                                            style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-fan"
+                                                style="color: #74C0FC;"></i> Email First Line Personalization</li>
+                                        <li class="text-base text-[#62668A]"
+                                            style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-fan"
+                                                style="color: #74C0FC;"></i> Campaign Strategy & Management</li>
+                                        <li class="text-base text-[#62668A]"
+                                            style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-fan"
+                                                style="color: #74C0FC;"></i> Follow-up Email Sequence</li>
+                                        <li class="text-base text-[#62668A]"
+                                            style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-fan"
+                                                style="color: #74C0FC;"></i> A/B Testing</li>
+                                        <li class="text-base text-[#62668A]"
+                                            style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-fan"
+                                                style="color: #74C0FC;"></i> Email Copy</li>
+                                        <li class="text-base text-[#62668A]"
+                                            style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-fan"
+                                                style="color: #74C0FC;"></i> Weekly Analytics & Reporting</li>
+                                        <li class="text-base text-[#62668A]"
+                                            style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-fan"
+                                                style="color: #74C0FC;"></i> Dedicated Account Manager</li>
+
+                                    </ul>
+                                </div>
+                                <!-- Button -->
+                                <button
+                                    class="bg-[#1F2559] text-white hover:text-[#6B6CF9] mt-12 px-16 py-3 rounded-lg my-3">Contact</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- card and pricing section -->
+
+
+
+
+            </div>
+        </section>
+        <!-- plans and pricing -->
+
+
+        <!-- Book Metting section start -->
+        <section>
+            <!-- parent div -->
+            <div class="container mx-auto">
+
+                <!-- button and content start -->
+                <div class="flex items-center justify-center">
+                    <button
+                        class="bg-[#1F2559] text-white hover:text-[#6B6CF9] mt-12 px-10 font-bold py-3 rounded-lg my-3"
+                        style="font-family: 'RocknRoll One', sans-serif;">Book Metting <i
+                            class="fa-solid fa-circle-down"></i></button>
+
+                </div>
+
+                <div class="flex justify-center mt-4">
+                    <h1 class="text-2xl text-center font-bold mb-8 text-[#1E2B58]"
+                        style="font-family: 'RocknRoll one', sans-serif;">Ready to transform your data & outreach? Book
+                        a meeting with us to get started today!</h1>
+                </div>
+                <!-- button and content end -->
+
+
+                <!-- calendar part start -->
+                <div>
+                    <!-- parent div -->
+                    <div class="bg-white rounded-md shadow-lg my-5 pb-7 max-w-3xl mx-auto"
+                        style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(255, 255, 255, 0.5);">
+
+                        <div class="text-center py-5">
+                            <h1 class="text-xl text-[#0A2540] font-semibold"
+                                style="font-family: 'Poppins', sans-serif;">Nazmul Hoque</h1>
+                            <h1 class="text-base text-[#0A2540] font-semibold"
+                                style="font-family: 'Poppins', sans-serif;">This calendar is currently available.</h1>
+                        </div>
+
+                        <div class="text-center py-3">
+                            <p class="text-[#0A2540]">If you are the owner of this account, you can log in to find out
+                                more</p>
+                        </div>
+
+                        <!-- calendar start here -->
+                        <div class="py-5 px-4">
+                            <!-- Calendar Container -->
+                            <div id="calendar" class="bg-gray-100 rounded-lg shadow-lg py-4">
+                                <!-- present calendar added here-->
+                            </div>
+                        </div>
+                        <!-- calendar end here -->
+
+                    </div>
+                </div>
+
+                <!-- javacript added the body end -->
+
+            </div>
+
+        </section>
+        <!-- Book Metting section end -->
+
+
+        <!-- Our Happy Clients section start -->
+        <section>
+            <!-- parent div -->
+            <div>
+                <!-- content -->
+                <div class="text-center py-6 px-3">
+                    <div>
+                        <h1 class="text-2xl text-center font-bold mb-2 text-[#1E2B58]"
+                            style="font-family: 'RocknRoll one', sans-serif;">Our Happy Clients?</h1>
+                    </div>
+                    <div>
+                        <p class="text-base font-bold text-[#54595F]">Our 98% of clients leave 5/5 star reviews with
+                            their high satisfaction. <span class="text-xs">Other 2% made it at least 4 stars</span></p>
+                    </div>
+                </div>
+
+                <!-- Slider Start -->
+                <div class="relative mt-8 w-full max-w-6xl mx-auto">
+                    <!-- Carousel Items -->
+                    <div class="overflow-hidden">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4" id="carouselItems">
+                            <!-- Item 1 -->
+                            <div class="flex-shrink-0 px-2 my-4">
+                                <!-- Card Content -->
+                                <div class="bg-[#F2709C] shadow-xl rounded-lg p-6 h-full flex flex-col justify-between">
+                                    <figure class="px-10 pt-6">
+                                        <img src="images/carosoul_img/img_1.png" alt="Icon 1"
+                                            class="rounded-full w-20 mx-auto" />
+                                    </figure>
+                                    <div class="text-center mt-4">
+                                        <h2 class="text-lg font-bold text-white">Ryan Kelly</h2>
+                                        <p class="text-sm text-white">Co-Founder & Partner - Lendzi</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="rating rating-md">
+                                            <input type="radio" name="rating-1" class="mask mask-star-2 bg-white" />
+                                            <input type="radio" name="rating-1" class="mask mask-star-2 bg-white" />
+                                            <input type="radio" name="rating-1" class="mask mask-star-2 bg-white" />
+                                            <input type="radio" name="rating-1" class="mask mask-star-2 bg-white" />
+                                            <input type="radio" name="rating-1" class="mask mask-star-2 bg-white" />
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <p class="text-white font-bold">
+                                            What a pleasure it is to work with Lead Army - We gave a complicated email
+                                            list collection
+                                            task and he over delivered as usual great quality! Highly recommended!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 2 -->
+                            <div class="flex-shrink-0 px-2 my-4">
+                                <div class="bg-[#82E182] shadow-xl rounded-lg p-6 h-full flex flex-col justify-between">
+                                    <figure class="px-10 pt-6">
+                                        <img src="images/carosoul_img/img_2.png" alt="Icon 2"
+                                            class="rounded-full w-20 mx-auto" />
+                                    </figure>
+                                    <div class="text-center mt-4">
+                                        <h2 class="text-lg font-bold text-white">John Barrows</h2>
+                                        <p class="text-sm text-white">Founder & CEO at JB Sales</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="rating rating-md">
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-white" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-white" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-white" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-white" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-white" />
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <p class="text-white font-bold">
+                                            Lead Army is the best when it comes to email scraping and data mining! They
+                                            provide the best
+                                            quality of work in a short time. I say go with them! You will not regret it!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 3 -->
+                            <div class="flex-shrink-0 px-2 my-4">
+                                <div class="bg-[#9562FF] shadow-xl rounded-lg p-6 h-full flex flex-col justify-between">
+                                    <figure class="px-10 pt-6">
+                                        <img src="images/carosoul_img/img_5.png" alt="Icon 3"
+                                            class="rounded-full w-20 mx-auto" />
+                                    </figure>
+                                    <div class="text-center mt-4">
+                                        <h2 class="text-lg font-bold text-white">Matthew Quinn</h2>
+                                        <p class="text-sm text-white">VP of Sales at WorkEQ</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="rating rating-md">
+                                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-white" />
+                                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-white" />
+                                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-white" />
+                                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-white" />
+                                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-white" />
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <p class="text-white font-bold">
+                                            Really excellent work, and will definitely rehire for future work. Lead Army
+                                            is now the
+                                            company I contact first if I have something that needs to be done well.
+                                            Great job!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slider End -->
+
+
+
+
+            </div>
+        </section>
+        <!-- Our Happy Clients section end -->
+
+
+
+    </main>
+
+    <!-- Main end -->
+
+
+    <!-- Footer start -->
+    <footer class="bg-[#1E2B58] w-full h-auto mt-8">
+        <div class="container mx-auto px-4 py-8">
+
+            <!-- footer header -->
+            <div class="pt-4 pb-7 mb-7 text-center">
+                <h1 class="text-4xl font-semibold mb-2 text-white" style="font-family: 'Poppins', sans-serif;">
+                    Turn cold email outreach into a high converting <br> sales machine with our fully managed service
+                </h1>
+            </div>
+
+            <!-- footer content -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-white items-center mx-auto">
+
+                <!-- Logo and Description -->
+                <div>
+                    <img src="images/leadarmy_footer.png" alt="logo" class="mb-4">
+                    <p class="text-base font-semibold text-[#A7AAAB]" style="font-family: 'Poppins', sans-serif;">
+                        We help businesses to build high quality hand curated contact list on their target criteria &
+                        outreach on them to generate qualified leads
+                    </p>
+                </div>
+
+                <!-- Important Links -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-2" style="font-family: 'Poppins', sans-serif;">Important Link</h3>
+                    <ul class="text-sm">
+                        <li class="mb-1 text-base font-semibold text-[#A7AAAB]"
+                            style="font-family: 'Poppins', sans-serif;"><a href="#" class="hover:underline"
+                                style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-house"
+                                    style="color: #74C0FC;"></i> Home</a></li>
+
+                        <li class="mb-1 text-base font-semibold text-[#A7AAAB]"><a href="#" class="hover:underline"
+                                style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-suitcase"
+                                    style="color: #74C0FC;"></i> Services</a></li>
+                        <li class="mb-1 text-base font-semibold text-[#A7AAAB]"><a href="#" class="hover:underline"
+                                style="font-family: 'Poppins', sans-serif;"
+                                style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-laptop"
+                                    style="color: #74C0FC;"></i> Portfolio</a></li>
+                        <li><a href="#" class="text-base font-semibold text-[#A7AAAB] hover:underline"
+                                style="font-family: 'Poppins', sans-serif;"><i class="fa-solid fa-comment"
+                                    style="color: #74C0FC;"></i> Testimonial</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Our Services -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-2" style="font-family: 'Poppins', sans-serif;">Our Services</h3>
+                    <ul class="text-sm">
+                        <li class="mb-1 text-base font-semibold text-[#A7AAAB]"
+                            style="font-family: 'Poppins', sans-serif;"><a href="#" class="hover:underline"><i
+                                    class="fa-solid fa-list" style="color: #74C0FC;"></i> Custom
+                                Contact List Building</a></li>
+                        <li class="mb-1 text-base font-semibold text-[#A7AAAB]"
+                            style="font-family: 'Poppins', sans-serif;"><a href="#" class="hover:underline"><i
+                                    class="fa-solid fa-list" style="color: #74C0FC;"></i> Data
+                                Enrichment</a></li>
+                        <li class="mb-1 text-base font-semibold text-[#A7AAAB]"
+                            style="font-family: 'Poppins', sans-serif;"><a href="#" class="hover:underline"><i
+                                    class="fa-solid fa-envelope" style="color: #74C0FC;"></i> Cold
+                                Email Outreach</a></li>
+                        <li><a href="#" class="text-base font-semibold text-[#A7AAAB] hover:underline"
+                                style="font-family: 'Poppins', sans-serif;"><i class="fa-brands fa-linkedin"
+                                    style="color: #74C0FC;"></i> LinkedIn
+                                Campaign</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Us -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-2" style="font-family: 'Poppins', sans-serif;">Contact Us</h3>
+                    <ul class="text-sm">
+                        <li class="mb-1 text-base font-semibold text-[#A7AAAB]"><a href="tel:+15612284003"
+                                class="hover:underline" style="font-family: 'Poppins', sans-serif;"><i
+                                    class="fa-solid fa-phone" style="color: #74C0FC;"></i> +1 561-228-4003</a>
+                        </li>
+                        <li class="mb-1 text-base font-semibold text-[#A7AAAB]"
+                            style="font-family: 'Poppins', sans-serif;"><a href="tel:+8801776111677"
+                                class="hover:underline"><i class="fa-brands fa-whatsapp" style="color: #74C0FC;"></i>
+                                +8801776111677</a></li>
+                        <li class="mb-1 text-base font-semibold text-[#A7AAAB]"
+                            style="font-family: 'Poppins', sans-serif;"><a href="mailto:info@leadarmy.com"
+                                class="hover:underline"><i class="fa-solid fa-envelope" style="color: #74C0FC;"></i>
+                                info@leadarmy.com</a></li>
+                        <li><a href="#" class="text-base font-semibold text-[#A7AAAB] hover:underline"
+                                style="font-family: 'Poppins', sans-serif;"><i class="fa-brands fa-skype"
+                                    style="color: #74C0FC;"></i> nazmul_it</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Footer Copyright -->
+        <hr class="border-[#606161]">
+        <div class="text-center text-sm text-[#A7AAAB] py-4" style="font-family: 'Roboto', sans-serif;">
+            &copy; 2025 All rights reserved by LeadArmy
+        </div>
+        <!-- Footer Copyright end -->
+
+
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Calender script added to end of body-->
+    <script>
+
+        function generateCalendar(month, year) {
+            const calendar = document.getElementById('calendar');
+            calendar.innerHTML = '';
+
+            const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+            const header = document.createElement('div');
+            header.className = 'grid grid-cols-7 text-center font-semibold text-gray-700';
+            daysOfWeek.forEach(day => {
+                const dayDiv = document.createElement('div');
+                dayDiv.innerText = day;
+                header.appendChild(dayDiv);
+            });
+            calendar.appendChild(header);
+
+
+            const firstDay = new Date(year, month, 1).getDay();
+
+
+            const totalDays = new Date(year, month + 1, 0).getDate();
+
+            const datesGrid = document.createElement('div');
+            datesGrid.className = 'grid grid-cols-7 text-center';
+
+
+            for (let i = 0; i < firstDay; i++) {
+                const emptyDiv = document.createElement('div');
+                datesGrid.appendChild(emptyDiv);
+            }
+
+
+            for (let date = 1; date <= totalDays; date++) {
+                const dateDiv = document.createElement('div');
+                dateDiv.innerText = date;
+                dateDiv.className = 'py-2';
+
+                const today = new Date();
+                if (date === today.getDate() && month === today.getMonth() && year === today.getFullYear()) {
+                    dateDiv.classList.add('bg-blue-500', 'text-white', 'rounded-full');
+                } else {
+                    dateDiv.classList.add('text-gray-700');
+                }
+
+                datesGrid.appendChild(dateDiv);
+            }
+
+            calendar.appendChild(datesGrid);
+        }
+
+
+        const today = new Date();
+        generateCalendar(today.getMonth(), today.getFullYear());
+    </script>
+
+    <!-- Flowbite Script tag -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.1/dist/flowbite.min.js"></script>
+</body>
+
+</html>
